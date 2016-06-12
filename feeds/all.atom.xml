@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal blog of Christian Seyda</title><link href="//cseyda.github.io/" rel="alternate"></link><link href="//cseyda.github.io/feeds/all.atom.xml" rel="self"></link><id>//cseyda.github.io/</id><updated>2016-04-17T00:00:00+02:00</updated><entry><title>Investing in yourself</title><link href="//cseyda.github.io/investing-yourself.html" rel="alternate"></link><published>2016-04-17T00:00:00+02:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2016-04-17:investing-yourself.html</id><summary type="html">&lt;p&gt;When asked about investments, or investing in something, most people think about monetary values like stocks or real estate. Wealth can be found elsewhere, too. A great property to also invest is you!&lt;/p&gt;
-&lt;p&gt;In the following article I will outline the different currencies of investment, different options, and how they relate to each other.&lt;/p&gt;
-&lt;p&gt;// ## Definitions: investment, currency
-Definitions of investment oftentimes focus on the economic aspect&lt;a href="http://www.thefreedictionary.com/investing"&gt;^1&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span class="dquo"&gt;“&lt;/span&gt;To commit (money or capital) in order to gain a financial return.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Generally speaking an investment is any commitment in order to gain something in the future:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Commitment ↔ currency ↔ future gain.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;One form or currency of commitment is money. No doubts about that. Other forms can be seen as willpower, physical strength, etc. depending on your world views and line of work. But one form is universal, and that is time.&lt;/p&gt;
-&lt;h2&gt;On calculating the worth of an investment&lt;/h2&gt;
-&lt;p&gt;A term often mentioned alongside investments is return of investment (&lt;span class="caps"&gt;ROI&lt;/span&gt;). &lt;span class="caps"&gt;ROI&lt;/span&gt; calculates the relative gain from an investment:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span class="caps"&gt;ROI&lt;/span&gt; = (gain from investment - cost of investment) / cost of investment&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;A &lt;span class="caps"&gt;ROI&lt;/span&gt; greater 0 expresses an overall gain of investment, while a &lt;span class="caps"&gt;ROI&lt;/span&gt; smaller 0 represents an overall loss. &lt;span class="caps"&gt;ROI&lt;/span&gt; is often expressed as percentage&lt;a href="https://www.business-case-analysis.com/return-on-investment.html"&gt;^3&lt;/a&gt;. &lt;span class="caps"&gt;ROI&lt;/span&gt; is a simple metric, and should be adjusted to the individual needs, for example in conjunction with time intervals.
-    Another way to figure out if an investment is good, is to calculate when it amortizes — when it returns its initial cost.&lt;/p&gt;
-&lt;p&gt;&lt;span class="caps"&gt;ROI&lt;/span&gt;, as well as amortizing, loose value, if the expected return is hard to put in numbers.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Paying money to gain time results in the question, what time is worth to somebody.&lt;/li&gt;
-&lt;li&gt;Investing money for knowledge? One could compare a future with or without a job, where this knowledge is needed?&lt;/li&gt;
-&lt;li&gt;Using time to commit to a personal moral/ethic/… point of view? (For example searching and only buying vegan products). It’s personal, there is no objective way to determine its value.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The value of traditional commitments and returns like time and money is relatively easy to determine. Personal, emotional and unreliable commitments and returns are hardly possible to estimate. Common sense, and in some cases (health) statistics are the only possibilities to judge such an investment.&lt;/p&gt;
-&lt;h2&gt;Currency exchange&lt;/h2&gt;
-&lt;p&gt;With our definition of investment, and two forms of commitments / currencies, lets get the obvious out of the way, the conversions / exchanges between money, time and each other:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;money ↔ money
-Buying stocks, commodities, real estate, committing to startups, … &lt;a href="https://www.entrepreneur.com/article/250194"&gt;^2&lt;/a&gt;, selling at higher value&lt;/li&gt;
-&lt;li&gt;time ↔ money
-Doing work, getting paid&lt;/li&gt;
-&lt;li&gt;money ↔ time
-Paying others doing work, having time doing something else instead&lt;/li&gt;
-&lt;li&gt;time ↔ time
-Using time for optimizing workflows, systems, doing more in shorter span of time&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;There are no clear boundaries (for example doing research for the right financial investments uses time, whereas paying someone else uses money; or better workflows can yield money too), but the general understanding is clear.&lt;/p&gt;
-&lt;p&gt;&lt;span class="caps"&gt;ROI&lt;/span&gt; can be used to evaluate if the investment is worthwhile, if an investment has an expected outcome:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Spending 100€ to get 50€ back -&amp;gt; &lt;span class="caps"&gt;ROI&lt;/span&gt; = (50 - 100) / 100 = -0.5 -&amp;gt; 50% loss, surely no good investment, while
-spending 100€ to get 150€ back -&amp;gt; &lt;span class="caps"&gt;ROI&lt;/span&gt; = (150 - 100) / 100 = 0.5 -&amp;gt; 50% win.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The same applies to time. Investing 2 hours to reduce the time for a specific task from 4 to 1 minute seems not worthwhile if the task only runs once a week. It would need 40 weeks to amortize the investment.
-    This changes drastically, if the task runs 3 times a day. The 2 hours invested will yield a positive return in just 2 weeks.&lt;/p&gt;
-&lt;p&gt;On to the more interesting, and sometimes overlooked investments.&lt;/p&gt;</summary><category term="investment"></category></entry><entry><title>My article reading and consumption flow</title><link href="//cseyda.github.io/reading-flow.html" rel="alternate"></link><published>2016-04-17T00:00:00+02:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2016-04-17:reading-flow.html</id><summary type="html">&lt;p&gt;I was overwhelmed. Articles in bookmarks, open tabs, tab groups, sometimes over different browsers and operating systems and even in my todo list … This had to to change. A process for reading was needed.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal blog of Christian Seyda</title><link href="//cseyda.github.io/" rel="alternate"></link><link href="//cseyda.github.io/feeds/all.atom.xml" rel="self"></link><id>//cseyda.github.io/</id><updated>2016-04-17T00:00:00+02:00</updated><entry><title>My article reading and consumption flow</title><link href="//cseyda.github.io/reading-flow.html" rel="alternate"></link><published>2016-04-17T00:00:00+02:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2016-04-17:reading-flow.html</id><summary type="html">&lt;p&gt;I was overwhelmed. Articles in bookmarks, open tabs, tab groups, sometimes over different browsers and operating systems and even in my todo list … This had to to change. A process for reading was needed.
 First step was to open even more tabs and add more bookmarks. But after some reading how others approach this topic, I got to work uncluttering this mess.&lt;/p&gt;
 &lt;p&gt;In hindsight, the whole process is pretty obvious. It basically works this way:&lt;/p&gt;
 &lt;ol&gt;
@@ -72,7 +26,7 @@ First step was to open even more tabs and add more bookmarks. But after some rea
 &lt;p&gt;Fulltext article storage is something I contemplated about, but decided to be not worth the hassle. Diigo and &lt;a href="https://pinboard.in"&gt;Pinboard&lt;/a&gt; offer fulltext storage, there are solutions for Evernote, and storing locally as file is no problem at all, but I honestly have never really needed it. Just take (clear) enough notes, and consider the link as reference.&lt;/p&gt;
 &lt;h1&gt;Summary&lt;/h1&gt;
 &lt;p&gt;I hope this overview is helpful for someone else. It surely has helped me a lot for a more streamlined reading experience, and therefore more time to read more :)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Overview of my reading process" src="//cseyda.github.io/images/reading.png" style="width: 830px; height: auto;"/&gt;&lt;/p&gt;</summary><category term="reading"></category><category term="wiki"></category><category term="bookmark"></category></entry><entry><title>Overview of different online bookmark services</title><link href="//cseyda.github.io/bookmark-services.html" rel="alternate"></link><published>2016-04-08T00:00:00+02:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2016-04-08:bookmark-services.html</id><summary type="html"></summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>My master’s thesis</title><link href="//cseyda.github.io/master-thesis.html" rel="alternate"></link><published>2013-12-06T00:00:00+01:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2013-12-06:master-thesis.html</id><summary type="html">&lt;h1&gt;Comparison of graph-based and vector-space geographical topic detection&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Overview of my reading process" src="//cseyda.github.io/images/reading.png" style="width: 830px; height: auto;"/&gt;&lt;/p&gt;</summary><category term="reading"></category><category term="wiki"></category><category term="bookmark"></category></entry><entry><title>My master’s thesis</title><link href="//cseyda.github.io/master-thesis.html" rel="alternate"></link><published>2013-12-06T00:00:00+01:00</published><author><name>Christian Seyda</name></author><id>tag:cseyda.github.io,2013-12-06:master-thesis.html</id><summary type="html">&lt;h1&gt;Comparison of graph-based and vector-space geographical topic detection&lt;/h1&gt;
 &lt;p&gt;&lt;a href="//cseyda.github.io/static/MA.pdf"&gt;Link to the &lt;span class="caps"&gt;PDF&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The popularity of social networks like Facebook and Twitter, together with media sharing plattforms like Flickr and the ubiquity of modern smart phones and cameras with &lt;span class="caps"&gt;GPS&lt;/span&gt; sensors have lead to a vast amount of data with documents containing locations, text, and even more information. this data can be leveraged to optimise search results, perform targeted advertisement and even help people and authorities in case of nature catastrophes, for example as early warning systems. Geographic topic detection aims at providing meaningful topics for specific regions. One way to perform this task is to use a clustering algorithm with an appropriate distance function.&lt;/p&gt;
