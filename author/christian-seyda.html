@@ -26,14 +26,71 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Apr 17, 2016</h4>
+        <div id="content">            <h4 class="date">Jun 25, 2016</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="//cseyda.github.io/podcasts-linux.html" rel="bookmark" title="Permanent Link to &quot;Podcasts under linux, a short&nbsp;example&quot;">Podcasts under linux, a short&nbsp;example</a>
+                </h2>
+
+                <p>I recently started listening to podcasts. Intrigued by the usual promises of learning things, gaining perspectives and finding inspiration, there was luckily little friction in finding, getting and hearing them on linux. Only syncing to my mp3-player is a bit of a hassle.</p>
+<h1>What are podcasts, why should you listen to them and when?</h1>
+<p>Podcasts are modern radio shows.</p>
+<p>What internet videos/shows are to <span class="caps">TV</span>, podcasts are to radio shows. You hear them when you want, and how you want (pause, skip, rewind, …). There is a huge variety of themes, because everybody can start a podcast. Episodes don’t have to fit in any schedule, so the episodes of different shows vary quite in length.</p>
+<p>The usual appeal, like radio, comes from a slight shift in perspective in contrast to video, or books. There are many interviews, and the hosts talk more directly to the listener. Podcasts, as a different medium, attracts different people. People more inclined to text (like writers and journalists), which usually don’t produce video, more often produce podcasts, or be a guest on a show.</p>
+<p>Because podcasts are usually listened to while your body is occupied, but your mind may not. For example you could listen while training/running, household activities, preparing food, travelling, … You could of course listen to a podcast while doing nothing else. It is definitely not worse than watching <span class="caps">TV</span>.</p>
+<h1>How are they working / overview</h1>
+<p>Handling podcasts as a user is comparable to handling news feeds, because podcast services right now are implemented usually with feeds (<span class="caps">RSS</span>/atom).</p>
+<p>Therefore, there are 3 parts involved:</p>
+<ul>
+<li>Finding podcasts / recommendation service,</li>
+<li>getting new episodes, and</li>
+<li>listening to / streaming / syncing episodes.</li>
+</ul>
+<p>Because podcast are exploding in popularity, there are quite a few apps and platforms specifically designed for finding, managing and listening to podcasts (like Feedly/Inoreader for feeds). The biggest one is iTunes. Most podcasts also have a website, where you can find the feed url. Sometimes there are integrated players for listening on the page, and/or materials/notes used by the show.</p>
+<p>There are also programs designed for each part, which is “more in line” with the <span class="caps">UNIX</span> philosophy of “do one thing, but do it well”.</p>
+<h1>My use case</h1>
+<p>With no no smartphone, but a mp3-player, I needed a desktop + sync solution.</p>
+<p>There are many good clients available for finding podcast and managing episode downloads, because the techniques (feeds, downloads) are well understood. Syncing is unfortunately a different topic.</p>
+<ul>
+<li>For getting the subscription link: <a href="http://tunesviewer.sourceforge.net/">Tunesviewer</a></li>
+</ul>
+<p>With Tunesviewer you can surf the iTunes archive/website without the iTunes client, and get the feed link for each show. (You can think about Apple what you want, but iTunes with Tunesviewer for podcasts is really convenient, even if there are other platforms available.)</p>
+<ul>
+<li>For getting the episodes: <a href="http://gpodder.org/">gPodder</a></li>
+</ul>
+<p>gPodder is a really good working graphical podcatcher: insert url, choose episodes and download them.</p>
+<ul>
+<li>For syncing: gPodder + custom script</li>
+</ul>
+<p>Syncing in my case is at least:</p>
+<ol>
+<li>Download new episode -&gt; transfer to device</li>
+<li>Mark episode listened -&gt; delete on device</li>
+</ol>
+<p>gPodder sync support works for case 1., but unfortunately not for case 2.</p>
+<p>I ended up with a small Python script. gPodder saves its information of podcasts/episodes in an sqlite database. The script generates the filenames of episodes which are not heard yet, compares these with the filenames on my mp3-player, and deletes those not needed anymore.</p>
+<h1>Summary</h1>
+<p>Podcast are great. They are generally easy to manage. And with the right tools custom solutions or tweaks are easy to make.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="//cseyda.github.io/podcasts-linux.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="//cseyda.github.io/category/learning.html" rel="tag">Learning</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="//cseyda.github.io/tag/podcast.html" class="tags">podcast</a>
+                    &nbsp;<a href="//cseyda.github.io/tag/software.html" class="tags">software</a>
+                    &nbsp;<a href="//cseyda.github.io/tag/learning.html" class="tags">learning</a>
+                    &nbsp;<a href="//cseyda.github.io/tag/linux.html" class="tags">linux</a>
+                </div>
+            </article>            <h4 class="date">Apr 17, 2016</h4>
 
             <article class="post">
                 <h2 class="title">
                     <a href="//cseyda.github.io/reading-flow.html" rel="bookmark" title="Permanent Link to &quot;My article reading and consumption&nbsp;flow&quot;">My article reading and consumption&nbsp;flow</a>
                 </h2>
 
-                <p>I was overwhelmed. Articles in bookmarks, open tabs, tab groups, sometimes over different browsers and operating systems and even in my todo list … This had to to change. A process for reading was needed.
+                <p>It was too much. Articles in bookmarks, open tabs, tab groups, sometimes over different browsers and operating systems and even in my todo list … This had to to change. A process for reading was needed.
 First step was to open even more tabs and add more bookmarks. But after some reading how others approach this topic, I got to work uncluttering this mess.</p>
 <p>In hindsight, the whole process is pretty obvious. It basically works this way:</p>
 <ol>
