@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.29" />
+
+  <title>Surfstick and internet sharing with networkmanager &middot; My New Hugo Site</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://example.org/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://example.org/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://example.org/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  
+
+  
+
+  <link rel="shortcut icon" href="http://example.org/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://example.org/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://example.org/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://example.org/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2016. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Surfstick and internet sharing with networkmanager</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Jul 2016</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://example.org/tags/software">software</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://example.org/tags/network">network</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://example.org/tags/linux">linux</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Wired internet broke after floodings. To bridge the time till all repairs are finished I received a K4203 SurfStick. Some instructions how to get it to work and share the internet connection follows.</p>
+
+<p>#K4203 SurfStick
+This stick provides a wireless internet connection through UMTS. In my case it didn&rsquo;t work out of the box. Upon insertion in an USB slot it registered itself as a CD-reader. Apparently USB devices can have different modes of operation and change according to the situation. To force it to the right mode, watch with <code>lsusb</code> and issue the following command after insertion of the stick:</p>
+
+<pre><code>$ sudo usb_modeswitch -v 12d1 -p 1f1c -W -I -M 55534243123456780000000000000011062000000101000100000000000000
+</code></pre>
+
+<p><a href="http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?f=3&amp;t=1970">Source</a></p>
+
+<p>#Internet sharing
+There are tons of tutorials on how to share a internet connection with networkmanager &ndash; not repeating the steps here. But there is not enough information about how to change the standard IP address 10.42.0.1 of the shared interface.</p>
+
+<p>In order to use the shared connection, you have to change the addresses (IP, gateway, DNS) of all devices wanting to use it. There is no option in the GUI to change the standard address, and no configuration file option. The only way (I could find) was to use nmcli:</p>
+
+<pre><code>$ nmcli connection modify Hotspot ipv4.address 196.168.0.1/24
+</code></pre>
+
+<p><a href="https://www.mail-archive.com/networkmanager-list@gnome.org/msg26190.html">Source</a></p>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="http://example.org/post/20160625_podcasts/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="http://example.org/post/20160625_podcasts/">Podcasts under linux, a short example</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="http://example.org/js/ui.js"></script>
+
+
+
+
+</body>
+</html>
+
