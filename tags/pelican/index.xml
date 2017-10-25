@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pelican on My New Hugo Site</title>
-    <link>http://example.org/tags/pelican/</link>
+    <link>https://cseyda.github.io/tags/pelican/</link>
     <description>Recent content in Pelican on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sun, 03 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/pelican/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cseyda.github.io/tags/pelican/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>http://example.org/about/</link>
+      <link>https://cseyda.github.io/about/</link>
       <pubDate>Sun, 03 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://cseyda.github.io/about/</guid>
       <description>Hey!
 My name is Christian Seyda.
 I am a computer scientist (developer/programmer, tinkerer &amp;amp; thinker) from Germany, living in a small town around Heidelberg.
@@ -27,20 +27,20 @@ Generally thou, I pretty much like to learn about everything new in computer sci
     
     <item>
       <title>My master&#39;s thesis</title>
-      <link>http://example.org/post/20131206_masters_thesis/</link>
+      <link>https://cseyda.github.io/post/20131206_masters_thesis/</link>
       <pubDate>Fri, 06 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/20131206_masters_thesis/</guid>
+      <guid>https://cseyda.github.io/post/20131206_masters_thesis/</guid>
       <description>Comparison of graph-based and vector-space geographical topic detection Link to the PDF
 Abstract The popularity of social networks like Facebook and Twitter, together with media sharing plattforms like Flickr and the ubiquity of modern smart phones and cameras with GPS sensors have lead to a vast amount of data with documents containing locations, text, and even more information. this data can be leveraged to optimise search results, perform targeted advertisement and even help people and authorities in case of nature catastrophes, for example as early warning systems.</description>
     </item>
     
     <item>
       <title>My bachelor&#39;s thesis</title>
-      <link>http://example.org/post/20110328_bachelors_thesis/</link>
+      <link>https://cseyda.github.io/post/20110328_bachelors_thesis/</link>
       <pubDate>Mon, 28 Mar 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/20110328_bachelors_thesis/</guid>
+      <guid>https://cseyda.github.io/post/20110328_bachelors_thesis/</guid>
       <description>Estimation of Power Consumption of DVFS-Enabled Processors Link to the PDF
 Abstract Saving energy is nowadays a critical factor, especially for data centers or high performance clusters which have a power consumption of several mega watts. The simple use of component energy saving mechanisms is not always possible, because this can lead to performance degradation. For this reason, high performance clusters are mainly not using them, even in low utilization phases.</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning on My New Hugo Site</title>
-    <link>http://example.org/tags/learning/</link>
+    <link>https://cseyda.github.io/tags/learning/</link>
     <description>Recent content in Learning on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sat, 25 Jun 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cseyda.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Podcasts under linux, a short example</title>
-      <link>http://example.org/post/20160625_podcasts/</link>
+      <link>https://cseyda.github.io/post/20160625_podcasts/</link>
       <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/20160625_podcasts/</guid>
+      <guid>https://cseyda.github.io/post/20160625_podcasts/</guid>
       <description>I recently started listening to podcasts. Intrigued by the usual promises of learning things, gaining perspectives and finding inspiration, there was luckily little friction in finding, getting and hearing them on linux. Only syncing to my mp3-player is a bit of a hassle.
 What are podcasts, why should you listen to them and when? Podcasts are modern radio shows.
 What internet videos/shows are to TV, podcasts are to radio shows.</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bookmark on My New Hugo Site</title>
-    <link>http://example.org/tags/bookmark/</link>
+    <link>https://cseyda.github.io/tags/bookmark/</link>
     <description>Recent content in Bookmark on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sun, 17 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/bookmark/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cseyda.github.io/tags/bookmark/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My article reading and consumption flow</title>
-      <link>http://example.org/post/20160417_reading_flow/</link>
+      <link>https://cseyda.github.io/post/20160417_reading_flow/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/20160417_reading_flow/</guid>
+      <guid>https://cseyda.github.io/post/20160417_reading_flow/</guid>
       <description>It was too much. Articles in bookmarks, open tabs, tab groups, sometimes over different browsers and operating systems and even in my todo list &amp;hellip; This had to to change. A process for reading was needed. First step was to open even more tabs and add more bookmarks. But after some reading how others approach this topic, I got to work uncluttering this mess.
 In hindsight, the whole process is pretty obvious.</description>
     </item>

@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
+    <link>https://cseyda.github.io/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Sun, 17 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cseyda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bookmark</title>
-      <link>http://example.org/tags/bookmark/</link>
+      <link>https://cseyda.github.io/tags/bookmark/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/bookmark/</guid>
+      <guid>https://cseyda.github.io/tags/bookmark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>http://example.org/tags/learning/</link>
+      <link>https://cseyda.github.io/tags/learning/</link>
       <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/learning/</guid>
+      <guid>https://cseyda.github.io/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://example.org/tags/linux/</link>
+      <link>https://cseyda.github.io/tags/linux/</link>
       <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/linux/</guid>
+      <guid>https://cseyda.github.io/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>http://example.org/tags/network/</link>
+      <link>https://cseyda.github.io/tags/network/</link>
       <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/network/</guid>
+      <guid>https://cseyda.github.io/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pelican</title>
-      <link>http://example.org/tags/pelican/</link>
+      <link>https://cseyda.github.io/tags/pelican/</link>
       <pubDate>Sun, 03 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/pelican/</guid>
+      <guid>https://cseyda.github.io/tags/pelican/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Podcast</title>
-      <link>http://example.org/tags/podcast/</link>
+      <link>https://cseyda.github.io/tags/podcast/</link>
       <pubDate>Sat, 25 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/podcast/</guid>
+      <guid>https://cseyda.github.io/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publishing</title>
-      <link>http://example.org/tags/publishing/</link>
+      <link>https://cseyda.github.io/tags/publishing/</link>
       <pubDate>Sun, 03 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/publishing/</guid>
+      <guid>https://cseyda.github.io/tags/publishing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reading</title>
-      <link>http://example.org/tags/reading/</link>
+      <link>https://cseyda.github.io/tags/reading/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/reading/</guid>
+      <guid>https://cseyda.github.io/tags/reading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://example.org/tags/software/</link>
+      <link>https://cseyda.github.io/tags/software/</link>
       <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/software/</guid>
+      <guid>https://cseyda.github.io/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wiki</title>
-      <link>http://example.org/tags/wiki/</link>
+      <link>https://cseyda.github.io/tags/wiki/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/wiki/</guid>
+      <guid>https://cseyda.github.io/tags/wiki/</guid>
       <description></description>
     </item>
     

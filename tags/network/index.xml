@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on My New Hugo Site</title>
-    <link>http://example.org/tags/network/</link>
+    <link>https://cseyda.github.io/tags/network/</link>
     <description>Recent content in Network on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cseyda.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Surfstick and internet sharing with networkmanager</title>
-      <link>http://example.org/post/20160704_surfstick_networkmanager/</link>
+      <link>https://cseyda.github.io/post/20160704_surfstick_networkmanager/</link>
       <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/20160704_surfstick_networkmanager/</guid>
+      <guid>https://cseyda.github.io/post/20160704_surfstick_networkmanager/</guid>
       <description>Wired internet broke after floodings. To bridge the time till all repairs are finished I received a K4203 SurfStick. Some instructions how to get it to work and share the internet connection follows.
 #K4203 SurfStick This stick provides a wireless internet connection through UMTS. In my case it didn&amp;rsquo;t work out of the box. Upon insertion in an USB slot it registered itself as a CD-reader. Apparently USB devices can have different modes of operation and change according to the situation.</description>
     </item>
