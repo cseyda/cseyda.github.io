@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 04 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cseyda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bigger, Leaner, Stronger</title>
+      <link>https://cseyda.github.io/post/20171103_biggerleanerstronger_review/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cseyda.github.io/post/20171103_biggerleanerstronger_review/</guid>
+      <description>by Michael Matthews (goodreads link)
+Good overview over the main fitness topics:
+ mental condition, willpower, social pressure eating (habits), calories, macros general concepts of a training plan for hobby lifter compound movements: squat, deadlift, benchpress, overhead press. a little short, but as an introduction it should be enough. links to online videos are given. supplement overview. what helps, what not, in which doses.  overall good introductions without much depths.</description>
+    </item>
     
     <item>
       <title>Surfstick and internet sharing with networkmanager</title>
@@ -51,9 +62,10 @@ In hindsight, the whole process is pretty obvious.</description>
       <guid>https://cseyda.github.io/about/</guid>
       <description>Hey!
 My name is Christian Seyda.
-I am a computer scientist (developer/programmer, tinkerer &amp;amp; thinker) from Germany, living in a small town around Heidelberg.
-My interests right now range from Linux and Python, over software/open source, consumer hardware, to productivity and health (nutrition/sports).
-Generally thou, I pretty much like to learn about everything new in computer science, software, hardware, other sciences and topics I don&amp;rsquo;t yet know about :)</description>
+I am a software engineer living in Germany, in a small town around Heidelberg.
+My interests range from Linux and Python, over software/open source, consumer hardware, to productivity and health (nutrition/sports).
+Generally though, I pretty much like to learn about everything new in computer science, software, hardware, other sciences and topics I don&amp;rsquo;t yet know about :)
+how i do things &amp;ndash; my life credos  be honest, even if your believe, opinion or knowledge may be unpopular &amp;ndash; as long as you could explain it.</description>
     </item>
     
     <item>
